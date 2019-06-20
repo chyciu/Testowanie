@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f57d3071-910b-4a89-a6be-fc0d43f35dd0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CalculatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ZooTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ZooTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WeightCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WeightCounter.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,15 +17,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ZooTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="72" column="47" selection-start-line="72" selection-start-column="47" selection-end-line="72" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/CalculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -46,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/WeightCounter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-162">
-              <caret line="28" column="45" lean-forward="true" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
+            <state relative-caret-position="-119">
+              <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -70,15 +59,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/WeightCounter.java" />
         <option value="$PROJECT_DIR$/src/main/java/Calculator.java" />
         <option value="$PROJECT_DIR$/src/test/java/CalculatorTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ZooTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/WeightCounter.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="508" />
+    <option name="x" value="503" />
+    <option name="y" value="5" />
     <option name="width" value="869" />
     <option name="height" value="727" />
   </component>
@@ -135,6 +125,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../IdeaProjects/klasa" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -151,7 +142,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ZooTest.takePet_mockedPetWhenOneReal_TofikAndReal">
+  <component name="RunManager" selected="Application.WeightCounter">
     <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Testowanie" />
@@ -159,12 +150,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest.powerN_a8_64" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WeightCounter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WeightCounter" />
       <module name="Testowanie" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CalculatorTest" />
-      <option name="METHOD_NAME" value="powerN_a8_64" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -211,19 +199,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Unnamed" />
-      <item itemvalue="JUnit.CalculatorTest.powerN_a8_64" />
       <item itemvalue="JUnit.CalculatorTest.powerN_a8pow2_64" />
       <item itemvalue="JUnit.CalculatorTest.squart_parapetrized" />
       <item itemvalue="JUnit.CalculatorTest.rootN_parametrized" />
       <item itemvalue="JUnit.ZooTest.takePet_mockedPetWhenOneReal_TofikAndReal" />
+      <item itemvalue="Application.WeightCounter" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WeightCounter" />
         <item itemvalue="JUnit.ZooTest.takePet_mockedPetWhenOneReal_TofikAndReal" />
         <item itemvalue="JUnit.CalculatorTest.rootN_parametrized" />
         <item itemvalue="JUnit.CalculatorTest.squart_parapetrized" />
         <item itemvalue="JUnit.CalculatorTest.powerN_a8pow2_64" />
-        <item itemvalue="JUnit.CalculatorTest.powerN_a8_64" />
       </list>
     </recent_temporary>
   </component>
@@ -256,12 +244,24 @@
     <history-entry file="CalculatorTest_rootN_parametrized - 2019.06.20 at 22h 10m 29s.xml">
       <configuration name="CalculatorTest.rootN_parametrized" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ZooTest_takePet_mockedPetWhenOneReal_TofikAndReal - 2019.06.20 at 22h 18m 40s.xml">
+      <configuration name="ZooTest.takePet_mockedPetWhenOneReal_TofikAndReal" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ZooTest_takePet_mockedPetWhenOneReal_TofikAndReal - 2019.06.20 at 22h 19m 39s.xml">
+      <configuration name="ZooTest.takePet_mockedPetWhenOneReal_TofikAndReal" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ZooTest_takePet_mockedPetWhenOneReal_TofikAndReal - 2019.06.20 at 22h 20m 06s.xml">
+      <configuration name="ZooTest.takePet_mockedPetWhenOneReal_TofikAndReal" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ZooTest_takePet_mockedPetWhenOneReal_TofikAndReal - 2019.06.20 at 22h 20m 42s.xml">
+      <configuration name="ZooTest.takePet_mockedPetWhenOneReal_TofikAndReal" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18835099" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -271,14 +271,14 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23567921" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.23567921" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3289689" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50075644" side_tool="true" weight="0.23567921" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -298,10 +298,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/WeightCounter.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ZooTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-162">
-          <caret line="28" column="45" lean-forward="true" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
+        <state relative-caret-position="382">
+          <caret line="73" column="44" selection-start-line="73" selection-start-column="44" selection-end-line="73" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -312,10 +312,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ZooTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/WeightCounter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="72" column="47" selection-start-line="72" selection-start-column="47" selection-end-line="72" selection-end-column="47" />
+        <state relative-caret-position="-119">
+          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
         </state>
       </provider>
     </entry>

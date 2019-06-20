@@ -5,22 +5,13 @@ public class WeightCounter {
     double age, height, mass;
     boolean on;
 
-    public WeightCounter() {
-        this.age = age;
-        this.height = height;
-        this.mass = mass;
-        this.on = on;
 
-    }
-
-
-    public void sleep () {
+    public void sleep (boolean on) {
 
         if (on == false) {
             System.out.println("WeightCounter is OFF.");
         } else
             System.out.println("WeightCounter is ON.");
-
     }
 
     public void feed () {
@@ -32,25 +23,18 @@ public class WeightCounter {
             height = scan.nextDouble();
             System.out.println("Read mass: ");
             mass = scan.nextDouble();
-
+            double bmi = mass / Math.pow(height, 2);
+            System.out.println("Your BMI factor is: " + bmi + ".");
     }
-
-
-     public void bmiFactor () {
-
-             double bmi = mass / Math.pow(height, 2);
-             System.out.println("Your BMI factor is: " + bmi + ".");
-
-     }
 
 
     public static void main(String[] args) {
 
         WeightCounter weightCounter = new WeightCounter();
 
-        weightCounter.sleep();
+
+        weightCounter.sleep(false);
         weightCounter.feed();
-        weightCounter.bmiFactor();
 
     }
 }
