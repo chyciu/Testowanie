@@ -53,4 +53,25 @@ public class ZooTest {
         assertThat(expected).isEqualTo(actual);
 
     }
+
+    @Test
+    public void takePet_mockedPetWhenOneReal_TofikAndReal () {
+
+        String expected = "Alik, Tofik, Amik";
+        Pet pet = mock(Pet.class);
+        when(pet.getName()).thenReturn("Alik").thenReturn("Tofik").thenReturn("Amik");
+
+        Zoo zoo = new Zoo ();
+        zoo.giveHomelessPet(pet);
+        zoo.giveHomelessPet(pet);
+        zoo.giveHomelessPet(pet);
+        zoo.giveHomelessPet(pet);
+
+        zoo.takePet(pet);
+
+        String actual = zoo.getPetNames();
+        assertThat(expected).isEqualTo(actual);
+        System.out.println(zoo.getPetNames());
+
+    }
 }

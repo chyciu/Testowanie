@@ -81,4 +81,24 @@ public final class Calculator {
 
         return getFibonaciNumber(n-1) + getFibonaciNumber(n-2);
     }
+
+    public static double powerTwo (double a) {
+
+        return Math.pow(a, 2);
+    }
+
+    public static double powerN (double a, double power) {
+
+        return Math.pow(a, power);
+    }
+
+    public static double squart (double base) {
+
+        return Math.sqrt(base);
+    }
+
+    public static double rootN (double base, double n) {
+
+        return Math.pow(base, 1/n);
+    }
 }
